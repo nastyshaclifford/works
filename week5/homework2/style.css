@@ -1,0 +1,125 @@
+.head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 30%;
+    background: linear-gradient(black, indigo);
+}
+.img {
+    position: absolute;
+    right: 10px;
+    width: 495px;
+    height: 292px;
+    border-radius: 50%;
+}
+.name {
+    margin-left: 56px;
+    width: 100%;
+    font-size: 90px;
+    font-weight: 600;
+    font-family: 'Niconne', cursive;
+    color: #e0d6e9;
+    text-shadow: 2px 2px 0px  #957dad,
+    4px 4px 0px #7c1dd4,
+    6px 6px 0px #00c2cb,
+    8px 8px 0px #78afdb,
+    10px 10px 0px #553c9a;
+    letter-spacing: 2px;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 100px;
+    margin-top: -10px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fdfdfe;
+    text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3,
+    0px 0px 20px #b393d3;
+    letter-spacing: 1.5px;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-around;
+    align-items:flex-end;
+    text-align: center;
+    color:white;
+    gap: 15px;
+}
+
+a {
+    text-decoration: none;
+    color:ghostwhite;
+}
+
+a:hover {
+    color: lightblue;
+    text-decoration: none;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    margin-top: -58px;
+    background: linear-gradient(indigo, lightblue);
+}
+
+h2 {
+    margin-bottom: 20px;
+    justify-content: center;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 600;
+    font-family: 'Niconne', cursive;
+    color: #e0d6e9;
+    text-shadow: 2px 2px 0px  #957dad,
+    4px 4px 0px #7c1dd4,
+    6px 6px 0px #00c2cb,
+    8px 8px 0px #78afdb,
+    10px 10px 0px #553c9a;
+}
+
+.story {
+    margin-left: 100px;;
+    border: 10px ridge #b393d3;
+    width: 80%;
+    height: auto;
+    text-align: center;
+    font-family: 'Niconne', cursive;
+    font-size: 20px;
+    background-color: rgba(246, 219, 252, 0.781);
+}
+
+.shop {
+    margin-top: 60px;
+    background: linear-gradient(lightblue, lightpink);
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    }
+    
+.gallery img {
+    margin-left: 100px;
+    margin-bottom: 15px;
+    justify-content: space-around;
+    width: 500px; 
+    height: auto;
+    border-radius: 15%;
+    filter: blur(5px); 
+    transition: 1s;
+    cursor: pointer; 
+}
+
+.gallery img:hover {
+    filter: blur(0);
+}
+
